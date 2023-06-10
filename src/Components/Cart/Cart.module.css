@@ -22,6 +22,17 @@
     text-align: right;
 }
 
+button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #e3a636;
+    border: 1px solid #e3a636;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
 .actions button {
     font: inherit;
     cursor: pointer;
@@ -47,4 +58,11 @@
 .actions .button {
     background-color: #e3a636;
     color: white;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

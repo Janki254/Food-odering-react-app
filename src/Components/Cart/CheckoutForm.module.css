@@ -1,0 +1,89 @@
+.form {
+    margin: 1rem 0;
+    height: auto;
+    overflow-y: auto;
+}
+
+.form h4 {
+    margin: 0.8;
+    margin-bottom: 0.5rem;
+}
+
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.control label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.control input {
+    font: inherit;
+    border: 1px solid #711973;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+.address {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.address input {
+    width: 12rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.actions button {
+    font: inherit;
+    color: #711973;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #ffe6dc;
+}
+
+.actions .submit {
+    border: 1px solid #6f1971;
+    background-color: #6f1971;
+    color: white;
+}
+.actions .submit:disabled {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    color: #424242;
+}
+
+.actions .submit:hover,
+.actions .submit:active {
+    border: 1px solid #8a2b06;
+    background-color: #8a2b06;
+    color: #fff;
+}
+
+.invalid label {
+    color: #ca3e51;
+}
+
+.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+}
+.invalid p {
+    margin: 0.2rem;
+    color: #aa0b20;
+}

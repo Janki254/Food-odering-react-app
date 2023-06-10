@@ -5,7 +5,6 @@ const CartContext = React.createContext({
     totalAmount: 0,
     addItems: (item) => {},
     deleteItem: (id) => {},
+    clearCart: () => {},
 });
 export default CartContext;
-
-

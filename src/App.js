@@ -3,6 +3,7 @@ import MainHeader from './Components/Layouts/MainHeader';
 import Meals from './Components/Meals/Meals';
 import Cart from './Components/Cart/Cart';
 import CartProvider from './store/CartProvider';
+import CheckoutForm from './Components/Cart/CheckoutForm';
 
 const App = () => {
     const [showCart, setShowCart] = useState(false);
